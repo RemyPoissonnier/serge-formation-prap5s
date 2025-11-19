@@ -1,4 +1,7 @@
 import { useMemo, useState } from "react";
+import ceinture from "../assets/ceintureDeMarche.png"
+import drapdegli from "../assets/drapDeGlisse.png"
+import disquedetrans from "../assets/disqueDeTransfert.png"
 
 type MaterielSlide = {
   name: string;
@@ -15,16 +18,14 @@ const SectionMateriel = () => {
         description:
           "Démonstrations pratiques pour sécuriser les transferts tout en respectant le confort du bénéficiaire.",
         items: ["Draps de glisse", "Disques de transfert", "Ceintures de marche"],
-        image:
-          "https://images.unsplash.com/photo-1504439904031-93ded9f93e5e?auto=format&fit=crop&w=900&q=80",
+        image: drapdegli
       },
       {
         name: "Aides à la manutention",
         description:
           "Travail sur la posture et la répartition de l'effort pour limiter la fatigue des équipes.",
         items: ["Lève-personnes", "Verticalisateurs", "Fauteuils roulants"],
-        image:
-          "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80",
+        image: ceinture
       },
       {
         name: "Postes de travail",
@@ -35,9 +36,7 @@ const SectionMateriel = () => {
           "Plans de travail modulables",
           "Espaces de rangement optimisés",
         ],
-        image:
-          "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=900&q=80",
-      },
+        image: disquedetrans      },
     ],
     []
   );
