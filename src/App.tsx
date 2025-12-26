@@ -158,9 +158,8 @@ export default function App() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Enjeux Humains */}
-          <Card title="LES ENJEUX…Humains" icon={<span>👤</span>}>
+          <Card title="Humains" icon={<span>👤</span>}>
             
-            {/*   */}
             <ul className="space-y-3 mt-2">
               <li className="text-slate-600">
                 • Amélioration de la qualité de vie au travail
@@ -177,9 +176,8 @@ export default function App() {
           </Card>
 
           {/* Enjeux Financiers */}
-          <Card title="LES ENJEUX…Financiers" icon={<span>💰</span>}>
+          <Card title="Financiers" icon={<span>💰</span>}>
             
-            {/*   */}
             <ul className="space-y-3 mt-2">
               <li className="text-slate-600">
                 • Diminution des Accidents de travail et des maladies
@@ -190,9 +188,8 @@ export default function App() {
           </Card>
 
           {/* Enjeux Sociétaux */}
-          <Card title="LES ENJEUX…Sociétaux" icon={<span>🌍</span>}>
+          <Card title="Sociétaux" icon={<span>🌍</span>}>
             
-            {/*   */}
             <ul className="space-y-3 mt-2">
               <li className="text-slate-600">
                 • Qualité des services de l’entreprise
