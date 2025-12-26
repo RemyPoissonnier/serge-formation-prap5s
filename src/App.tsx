@@ -1,5 +1,6 @@
 import { Text } from "./components/ui/Text"; // Assurez-vous que le chemin est correct
 import { Card } from "./components/ui/Card"; // Assurez-vous que le chemin est correct
+import ContextPage from "./components/ContextPage";
 
 export default function App() {
   return (
@@ -13,13 +14,15 @@ export default function App() {
         </Text>
 
         <Text variant="h2">
-          Prévention des Risques liés à l’ActivitéPhysique
+          Prévention des Risques liés à l’activité physique
         </Text>
 
         <Text variant="body" className="text-xl font-medium">
           Gestes et postures et principes d’économies d’éfforts.
         </Text>
       </section>
+
+      <ContextPage />
 
       {/* SECTION 2 : CADRE LÉGAL (ED7200) */}
       <section className="max-w-4xl mx-auto">
