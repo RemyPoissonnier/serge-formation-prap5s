@@ -1,5 +1,4 @@
-import React from "react";
-import { Text } from "./components/ui/TextVariant"; // Assurez-vous que le chemin est correct
+import { Text } from "./components/ui/Text"; // Assurez-vous que le chemin est correct
 import { Card } from "./components/ui/Card"; // Assurez-vous que le chemin est correct
 
 export default function App() {
@@ -14,7 +13,7 @@ export default function App() {
         </Text>
 
         <Text variant="h2">
-          Prévention desRisques liés à l’ActivitéPhysique
+          Prévention des Risques liés à l’ActivitéPhysique
         </Text>
 
         <Text variant="body" className="text-xl font-medium">
@@ -45,7 +44,7 @@ export default function App() {
       <section className="max-w-6xl mx-auto">
         <div className="text-center mb-10">
           <Text variant="h2">
-            Ces 3 compétences nous allons les développer ensemble{" "}
+            Ces 3 compétences nous allons les développer ensemble
           </Text>
         </div>
 
@@ -55,14 +54,12 @@ export default function App() {
             title="1- connaître les risques de votre métier :"
             className="h-full"
           >
-            {" "}
-            {/*  */}
             <ul className="list-disc pl-5 space-y-2 mt-2">
               <li className="text-slate-600">
-                Repérer les situations susceptibles de nuire à votre santé{" "}
+                Repérer les situations susceptibles de nuire à votre santé
               </li>
               <li className="text-slate-600">
-                Avoir conscience des enjeux pour l’entreprise{" "}
+                Avoir conscience des enjeux pour l’entreprise
               </li>
             </ul>
           </Card>
@@ -72,11 +69,9 @@ export default function App() {
             title="2- Observer et analyser votre situation de travail :"
             className="h-full"
           >
-            {" "}
-            {/*  */}
             <ul className="list-disc pl-5 space-y-2 mt-2">
               <li className="text-slate-600">
-                Identifier les différentes atteintes à la santé{" "}
+                Identifier les différentes atteintes à la santé
               </li>
             </ul>
           </Card>
@@ -86,11 +81,11 @@ export default function App() {
             title="3- participer à la maîtrise du risque :"
             className="h-full"
           >
-            {" "}
+            
             {/*  */}
             <ul className="list-disc pl-5 space-y-2 mt-2">
               <li className="text-slate-600">
-                Apporter des idées d’amélioration{" "}
+                Apporter des idées d’amélioration
               </li>
             </ul>
           </Card>
@@ -111,10 +106,10 @@ export default function App() {
             </Text>
             <div className="space-y-2">
               <Text variant="caption">
-                Accident survenu à cause du travail{" "}
+                Accident survenu à cause du travail
               </Text>
               <Text variant="caption">
-                Maladie reconnue si elle apparait sur le tableau des risques{" "}
+                Maladie reconnue si elle apparait sur le tableau des risques
               </Text>
             </div>
           </div>
@@ -125,16 +120,16 @@ export default function App() {
                 Coût Direct
               </Text>
               <Text variant="h3" className="mb-2">
-                Un coût direct « important »pour l’employeur{" "}
+                Un coût direct « important »pour l’employeur
               </Text>
               <Text variant="body">Salaires et frais médicaux </Text>
               <div className="mt-4 p-4 bg-slate-100 rounded-xl text-center">
                 <Text variant="caption">
                   Le coût moyen brut pour une entreprise d’un arrêt de travail
-                  est de{" "}
+                  est de
                 </Text>
                 <Text variant="h1" className="text-emerald-600 mt-1">
-                  2 931 euros{" "}
+                  2 931 euros
                 </Text>
               </div>
             </Card>
@@ -144,7 +139,7 @@ export default function App() {
                 Coût Indirect
               </Text>
               <Text variant="h3">
-                Un coût indirect « conséquent »Lié aux remplacements,{" "}
+                Un coût indirect « conséquent »Lié aux remplacements,
               </Text>
               <ul className="list-disc pl-5 mt-2 text-slate-600">
                 <li>Lié à la perte de productivité, </li>
@@ -164,31 +159,31 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Enjeux Humains */}
           <Card title="LES ENJEUX…Humains" icon={<span>👤</span>}>
-            {" "}
+            
             {/*   */}
             <ul className="space-y-3 mt-2">
               <li className="text-slate-600">
-                • Amélioration de la qualité de vie au travail{" "}
+                • Amélioration de la qualité de vie au travail
               </li>
               <li className="text-slate-600">
                 • Amélioration de la prise en charge des bénéficiaires avec un
-                impact sur la qualité des soins{" "}
+                impact sur la qualité des soins
               </li>
               <li className="text-slate-600">
                 • La valorisation des compétences des professionnels grâce à la
-                certification{" "}
+                certification
               </li>
             </ul>
           </Card>
 
           {/* Enjeux Financiers */}
           <Card title="LES ENJEUX…Financiers" icon={<span>💰</span>}>
-            {" "}
+            
             {/*   */}
             <ul className="space-y-3 mt-2">
               <li className="text-slate-600">
                 • Diminution des Accidents de travail et des maladies
-                professionnelles{" "}
+                professionnelles
               </li>
               <li className="text-slate-600">• Un AT est payé sur 3 ans </li>
             </ul>
@@ -196,11 +191,11 @@ export default function App() {
 
           {/* Enjeux Sociétaux */}
           <Card title="LES ENJEUX…Sociétaux" icon={<span>🌍</span>}>
-            {" "}
+            
             {/*   */}
             <ul className="space-y-3 mt-2">
               <li className="text-slate-600">
-                • Qualité des services de l’entreprise{" "}
+                • Qualité des services de l’entreprise
               </li>
               <li className="text-slate-600">• Bien être du salarié </li>
               <li className="text-slate-600">• L’image de l’entreprise </li>
