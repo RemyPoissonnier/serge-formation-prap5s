@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-slate-50 text-slate-900 antialiased;
+/* Configuration globale pour le thème PRAP (Emerald/Slate) */
+@layer base {
+  body {
+    /* Fond gris clair (slate-50) et texte gris foncé (slate-800) par défaut */
+    /* Antialiased rend le texte plus net et élégant */
+    @apply bg-slate-50 text-slate-800 antialiased;
+  }
+
+  /* Pour s'assurer que les titres sont bien contrastés par défaut */
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-slate-900 font-bold;
+  }
 }
